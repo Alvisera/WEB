@@ -1,0 +1,18 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container_result {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height: 100vh;
+}
