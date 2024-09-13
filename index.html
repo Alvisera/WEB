@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp WEB</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/whatsapp.png" type="image/png">
+</head>
+<body>
+    <div class="lateral">
+        <div class="icons">
+            <img 
+            class="mensagem" 
+            src="img/mensagem.png" 
+            alt="Chat"
+            onmouseover="trocarImagem(this, '../img/mensagem_hover.png')" 
+            onmouseout="restaurarImagem(this, '../img/mensagem.png')">
+            <div class="tooltip">Conversas</div>
+
+            <img
+            class="canais"
+            src="img/canais.png"
+            alt=""
+            onmouseover="trocarImagem(this, '../img/canais_hover.png')" 
+            onmouseout="restaurarImagem(this, '../img/canais.png')">
+
+            <img 
+            class="comunidade" 
+            src="img/comunidade.png" 
+            alt=""
+            onmouseover="trocarImagem(this, '../img/comunidade_hover1.png')" 
+            onmouseout="restaurarImagem(this, '../img/comunidade.png')">
+
+        </div>   
+        <div class="engrenagem">
+            <img 
+            class="config" 
+            src="img/config.png" 
+            alt=""
+            onmouseover="trocarImagem(this, '../img/config_hover.png')" 
+            onmouseout="restaurarImagem(this, '../img/config.png')">
+
+            <img class="fotoperfil" src="img/iconperfil.png" alt="">
+        </div>
+    </div>
+
+    <div class="conversas">
+        <div class="titulo-principal">
+            <h2 class="principal_titulo">Conversas</h2>
+        </div>
+        <div class="3-points">
+            <img src="" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
