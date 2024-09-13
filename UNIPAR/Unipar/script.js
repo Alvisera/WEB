@@ -47,7 +47,7 @@ document.getElementById("container").style.display = "block";
         });
     }
     function showMessage(message) {
-        console.log("Mensagem recebida:", message); // Verifica se a mensagem está chegando
+        console.log("Mensagem recebida:", message); 
     
         var messageElement = document.createElement('div');
         messageElement.classList.add('message');
